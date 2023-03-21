@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Dancing+Script&family=Raleway:ital,wght@0,100;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* === HEADER === */
+
+header{
+    color: whitesmoke; 
+    background-image: url(../images/fondoOscuro.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    height: 660px;
+}
+.navbar, .nav-link{
+    background-color: black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+nav img{
+    width: 200px;
+    height: 71px;
+}
+
+.textoColor:visited{
+    color: White;
+}
+.textoColor:hover{
+    color: White;
+    background-color: rgb(0, 0, 0);
+}
+.textoColor:active{
+    color: White;
+}
+.textoColor{
+    background-color: black;
+    color: White;
+}
+
+li a{
+    font-family: 'Raleway', sans-serif;
+    color: #f5f5f5;
+}
+.flexHeading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center; 
+    justify-content: flex-end;
+    align-items: center;
+}
+h1{
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding-top: 255px;
+}
+.slogan{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px 0 155px 0;
+}
+h1 a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(240, 115, 43, 0.801);
+}
+h1, .slogan{
+    text-shadow: 3px 3px 5px black;
+}
+h1 a:hover{
+    color: white;
+    text-shadow: 3px 3px 5px rgba(240, 240, 43, 0.801);
+}
+
+/* === MAIN GENERAL === */
+
+main{
+    color: black;
+    height: auto;
+    margin-top: 70px;
+}
+section{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(180, 175, 154, 0.363);
+    padding: 50px;
+    margin: 45px 0px 45px 0;
+}
+.texto{
+    margin: 30px;
+}
+.sec{
+    border: whitesmoke ridge;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagen{
+    width: 400px;
+}
+
+/* === FLEX GENERALES === */
+
+.flex{
+    display: flex;
+    align-items: center;
+    border: whitesmoke ridge;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* === GRID INDEX === */
+
+.primerNovedades{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "texto eclairs alfajores chocotorta"
+    "texto pionono pionono panDulce"
+    ;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, minmax( 100px 300px));
+    gap: 5px;
+}
+.eclairs{
+    grid-area: eclairs;
+}
+.alfajores{
+    grid-area: alfajores;
+}
+.pionono{
+    grid-area: pionono;
+}
+.panDulce{
+    grid-area: panDulce;
+}
+.chocotorta{
+    grid-area: chocotorta;
+}
+
+/* === GRID PANADERIA === */
+
+.primerPanaderia{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "masaMadre masaMadre palitosQueso palitosQueso panRollito baguette"
+    "masaMadre masaMadre panRelleno panRelleno medialunas medialunas"
+    "corazones chipa panRelleno panRelleno medialunas medialunas"
+    ;
+    grid-auto-columns: repeat(5, minmax( 100px 300px));
+    grid-auto-rows: repeat(3, minmax( 100px 300px));
+    gap: 5px;
+}
+.panMasaMadre{
+    grid-area: masaMadre;
+}
+.palitosQueso{
+    grid-area: palitosQueso;
+}
+.panRelleno{
+    grid-area: panRelleno;
+}
+.panRollito{
+    grid-area: panRollito;
+}
+.baguette{
+    grid-area: baguette;
+}
+.medialunas{
+    grid-area: medialunas;
+}
+.corazones{
+    grid-area: corazones;
+}
+.chipa{
+    grid-area: chipa;
+}
+
+/* === GRID ESPECIALIDADES === */
+
+.primerEspecialidades{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "cookies eclairs eclairs chocotorta alfajores panDulce"
+    "cookies eclairs eclairs torta torta brownies"
+    "pavlova pionono pionono torta torta brownies"
+    ;
+    grid-template-columns: repeat(5, minmax( 100px 1fr));
+    grid-template-rows: repeat(3, minmax( 100px 1fr));
+    gap: 5px;
+}
+.pavlova{
+    grid-area: pavlova;
+}
+.eclairs{
+    grid-area: eclairs;
+}
+.alfajores{
+    grid-area: alfajores;
+}
+.torta{
+    grid-area: torta;
+}
+.chocotorta{
+    grid-area: chocotorta;
+}
+.pionono{
+    grid-area: pionono;
+}
+.cookies{
+    grid-area: cookies;
+}
+.brownies{
+    grid-area: brownies;
+}
+.panDulce{
+    grid-area: panDulce;
+}
+
+/* === FOOTER GENERAL  === */
+
+footer{
+
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    color:white;
+    background-color: black;
+    padding: 30px;
+}
+footer img{
+    width: 60px;
+}
+.extremos{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center
+}
+
+/* === MEDIA QUERIES === */
+
+/* Breakpoints de pantallas (px)*/
+
+/* PC: 
+1920
+1366 (laptop)
+ */
+
+@media screen and (max-width: 1270px) and (min-width: 1031px){
+
+    .primerNovedades{
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(3, minmax( 100px 300px));
+        grid-template-areas: 
+        "texto eclairs alfajores"
+        "texto pionono pionono"
+        "texto panDulce chocotorta"
+    ;
+    }
+    header{
+    background-image: url(../images/fondoOscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    }
+    .primerPanaderia{
+        grid-template-areas: 
+        "masaMadre masaMadre palitosQueso palitosQueso "
+        "masaMadre masaMadre panRelleno panRelleno "
+        "corazones chipa panRelleno panRelleno"
+        "panRollito baguette medialunas medialunas"
+        ;
+        grid-template-columns: repeat(4, minmax( 100px 250px));
+        grid-template-rows: repeat(4, minmax( 100px 250px));
+    }
+    .primerEspecialidades{
+        grid-template-areas: 
+        "pavlova chocotorta eclairs eclairs"
+        "cookies panDulce eclairs eclairs"
+        "alfajores brownies torta torta"
+        "pionono pionono torta torta"
+        ;
+        grid-template-columns: repeat(4, minmax( 100px 250px));
+        grid-template-rows: repeat(4, minmax( 100px 250px));
+    }
+}
+
+/* Tablet:
+1024
+720
+ */
+
+@media screen and (max-width: 1030px) and (min-width: 866px){
+
+    .primerNovedades{
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(4, minmax( 100px 300px));
+        grid-template-areas: 
+        "texto texto "
+        "eclairs alfajores" 
+        "pionono pionono"
+        "panDulce chocotorta"
+    ;
+    }    
+
+}
+@media screen and (max-width: 865px) and (min-width: 676px){
+    h2{
+        font-size: 45px;
+    }
+    .primerNovedades{
+        grid-template-columns: repeat(2, 250px);
+        grid-auto-rows: 300px;
+        grid-template-areas: 
+        "texto texto"
+        "eclairs alfajores"
+        "pionono pionono"
+        "panDulce chocotorta"
+        ;
+    }
+    .primerPanaderia{
+        grid-template-areas: 
+        "masaMadre masaMadre"
+        "baguette baguette"
+        "palitosQueso chipa"
+        "panRelleno panRelleno"
+        "corazones corazones"
+        "panRollito medialunas"
+        ;
+        grid-template-columns: repeat(2, 250px);
+        grid-auto-rows: 300px;
+    }
+    .primerEspecialidades{
+        grid-template-areas: 
+        "eclairs eclairs"
+        "cookies alfajores"
+        "chocotorta torta"
+        "pionono pionono"
+        "panDulce brownies"
+        "pavlova pavlova"
+        ;
+        grid-template-columns: repeat(2, 250px);
+        grid-auto-rows: 300px;
+    }
+}
+/* Celular:
+420
+360
+ */
+@media screen and (max-width: 675px){
+    .imagen{
+        width: 275px;
+    }
+    .primerNovedades{
+        grid-template-columns: 300px;
+        grid-auto-rows: 300px;
+        grid-template-areas: 
+        "texto"
+        "texto"
+        "eclairs"
+        "alfajores"
+        "pionono"
+        "panDulce"
+        "chocotorta"
+    ;
+    }
+    .primerPanaderia{
+        grid-template-areas: 
+        "masaMadre"
+        "baguette"
+        "palitosQueso" 
+        "chipa"
+        "panRelleno"
+        "corazones"
+        "panRollito" 
+        "medialunas"
+        ;
+        grid-template-columns: 300px;
+        grid-auto-rows: 300px;
+    }
+    .primerEspecialidades{
+        grid-template-areas: 
+        "eclairs"
+        "cookies" 
+        "alfajores"
+        "chocotorta" 
+        "torta"
+        "pionono"
+        "panDulce" 
+        "brownies"
+        "pavlova"
+        ;
+        grid-template-columns: 300px;
+        grid-auto-rows: 300px;
+    }
+}
