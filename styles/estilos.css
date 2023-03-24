@@ -80,7 +80,7 @@ h1, .slogan{
 }
 h1 a:hover{
     color: white;
-    text-shadow: 3px 3px 5px rgba(240, 240, 43, 0.801);
+    text-shadow: 3px 3px 5px rgba(240, 115, 43, 0.801);
 }
 
 /* === MAIN GENERAL === */
