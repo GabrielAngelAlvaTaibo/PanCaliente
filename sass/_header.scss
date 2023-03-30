@@ -1,0 +1,77 @@
+header{
+    color: whitesmoke; 
+    background-image: url(../images/fondoOscuro.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    height: 660px;
+    nav img{
+        width: 200px;
+        height: 71px;
+    }
+    .navbar, .nav-link{
+        background-color: black;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        .textoColor:visited{
+            color: White;
+        }
+        .textoColor:hover{
+            color: White;
+            background-color: rgb(0, 0, 0);
+        }
+        .textoColor:active{
+            color: White;
+        }
+        .textoColor{
+            background-color: black;
+            color: White;
+        }
+        
+        li a{
+            font-family: 'Raleway', sans-serif;
+            color: #f5f5f5;
+        }
+    }
+    .flexHeading{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center; 
+        justify-content: flex-end;
+        align-items: center;
+
+        h1{
+            font-family: 'Raleway', serif;
+            font-weight: bold;
+            font-size: 70px;
+            line-height: 60px;
+            letter-spacing: 3px;
+            word-spacing: 5px;
+            padding-top: 255px;
+            a{
+                list-style-type: none;
+                text-decoration: none;
+                color: rgba(240, 115, 43, 0.801);
+                text-shadow: 3px 3px 5px black;
+                
+            }
+            a:hover{
+                color: white;
+                text-shadow: 3px 3px 5px rgba(240, 115, 43, 0.801);
+            }
+        }
+        .slogan{
+            font-family: 'Dancing Script', cursive;
+            font-size: 45px;
+            line-height: 40px;
+            letter-spacing: 3px;
+            word-spacing: 5px;
+            padding: 50px 0 155px 0;
+            text-shadow: 3px 3px 5px black;
+            
+        }
+    }
+}

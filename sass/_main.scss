@@ -1,0 +1,146 @@
+main{
+    color: black;
+    height: auto;
+    margin-top: 70px;
+    section{
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: rgba(180, 175, 154, 0.363);
+        padding: 50px;
+        margin: 45px 0px 45px 0;
+        .texto{
+            margin: 30px;
+        }
+        .sec{
+            border: whitesmoke ridge;
+        }
+        h2{
+            font-family: 'Raleway', sans-serif;
+            font-size: 45px;
+            font-weight: lighter;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .imagen{
+            width: 400px;
+        }
+    }
+
+// === GRID INDEX === 
+
+    .primerNovedades{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        "texto eclairs alfajores chocotorta"
+        "texto pionono pionono panDulce"
+        ;
+        grid-template-columns: repeat(4, 300px);
+        grid-template-rows: repeat(3, minmax( 100px 300px));
+        gap: 5px;
+    }
+    .eclairs{
+        grid-area: eclairs;
+    }
+    .alfajores{
+        grid-area: alfajores;
+    }
+    .pionono{
+        grid-area: pionono;
+    }
+    .panDulce{
+        grid-area: panDulce;
+    }
+    .chocotorta{
+        grid-area: chocotorta;
+    }
+
+// === GRID PANADERIA ===
+
+    .primerPanaderia{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        "masaMadre masaMadre palitosQueso palitosQueso panRollito baguette"
+        "masaMadre masaMadre panRelleno panRelleno medialunas medialunas"
+        "corazones chipa panRelleno panRelleno medialunas medialunas"
+        ;
+        grid-auto-columns: repeat(5, minmax( 100px 300px));
+        grid-auto-rows: repeat(3, minmax( 100px 300px));
+        gap: 5px;
+    }
+    .panMasaMadre{
+        grid-area: masaMadre;
+    }
+    .palitosQueso{
+        grid-area: palitosQueso;
+    }
+    .panRelleno{
+        grid-area: panRelleno;
+    }
+    .panRollito{
+        grid-area: panRollito;
+    }
+    .baguette{
+        grid-area: baguette;
+    }
+    .medialunas{
+        grid-area: medialunas;
+    }
+    .corazones{
+        grid-area: corazones;
+    }
+    .chipa{
+        grid-area: chipa;
+    }
+
+// === GRID ESPECIALIDADES ===
+
+    .primerEspecialidades{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        "cookies eclairs eclairs chocotorta alfajores panDulce"
+        "cookies eclairs eclairs torta torta brownies"
+        "pavlova pionono pionono torta torta brownies"
+        ;
+        grid-template-columns: repeat(5, minmax( 100px 1fr));
+        grid-template-rows: repeat(3, minmax( 100px 1fr));
+        gap: 5px;
+    }
+    .pavlova{
+        grid-area: pavlova;
+    }
+    .eclairs{
+        grid-area: eclairs;
+    }
+    .alfajores{
+        grid-area: alfajores;
+    }
+    .torta{
+        grid-area: torta;
+    }
+    .chocotorta{
+        grid-area: chocotorta;
+    }
+    .pionono{
+        grid-area: pionono;
+    }
+    .cookies{
+        grid-area: cookies;
+    }
+    .brownies{
+        grid-area: brownies;
+    }
+    .panDulce{
+        grid-area: panDulce;
+    }
+    
+}

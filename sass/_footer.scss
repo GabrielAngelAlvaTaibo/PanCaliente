@@ -1,0 +1,22 @@
+footer{
+
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    color:white;
+    background-color: black;
+    padding: 30px;
+    .extremos{
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        img{
+        width: 60px;
+        }
+    }
+}

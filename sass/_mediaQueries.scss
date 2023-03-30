@@ -1,0 +1,154 @@
+/* Breakpoints de pantallas (px)*/
+
+/* PC: 
+1920
+1366 (laptop)
+ */
+
+ @media screen and (max-width: 1270px) and (min-width: 1031px){
+
+    .primerNovedades{
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(3, minmax( 100px 300px));
+        grid-template-areas: 
+        "texto eclairs alfajores"
+        "texto pionono pionono"
+        "texto panDulce chocotorta"
+    ;
+    }
+    header{
+    background-image: url(../images/fondoOscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    }
+    .primerPanaderia{
+        grid-template-areas: 
+        "masaMadre masaMadre palitosQueso palitosQueso "
+        "masaMadre masaMadre panRelleno panRelleno "
+        "corazones chipa panRelleno panRelleno"
+        "panRollito baguette medialunas medialunas"
+        ;
+        grid-template-columns: repeat(4, minmax( 100px 250px));
+        grid-template-rows: repeat(4, minmax( 100px 250px));
+    }
+    .primerEspecialidades{
+        grid-template-areas: 
+        "pavlova chocotorta eclairs eclairs"
+        "cookies panDulce eclairs eclairs"
+        "alfajores brownies torta torta"
+        "pionono pionono torta torta"
+        ;
+        grid-template-columns: repeat(4, minmax( 100px 250px));
+        grid-template-rows: repeat(4, minmax( 100px 250px));
+    }
+}
+
+/* Tablet:
+1024
+720
+ */
+
+@media screen and (max-width: 1030px) and (min-width: 866px){
+
+    .primerNovedades{
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(4, minmax( 100px 300px));
+        grid-template-areas: 
+        "texto texto "
+        "eclairs alfajores" 
+        "pionono pionono"
+        "panDulce chocotorta"
+    ;
+    }    
+
+}
+@media screen and (max-width: 865px) and (min-width: 676px){
+    h2{
+        font-size: 45px;
+    }
+    .primerNovedades{
+        grid-template-columns: repeat(2, 250px);
+        grid-auto-rows: 300px;
+        grid-template-areas: 
+        "texto texto"
+        "eclairs alfajores"
+        "pionono pionono"
+        "panDulce chocotorta"
+        ;
+    }
+    .primerPanaderia{
+        grid-template-areas: 
+        "masaMadre masaMadre"
+        "baguette baguette"
+        "palitosQueso chipa"
+        "panRelleno panRelleno"
+        "corazones corazones"
+        "panRollito medialunas"
+        ;
+        grid-template-columns: repeat(2, 250px);
+        grid-auto-rows: 300px;
+    }
+    .primerEspecialidades{
+        grid-template-areas: 
+        "eclairs eclairs"
+        "cookies alfajores"
+        "chocotorta torta"
+        "pionono pionono"
+        "panDulce brownies"
+        "pavlova pavlova"
+        ;
+        grid-template-columns: repeat(2, 250px);
+        grid-auto-rows: 300px;
+    }
+}
+/* Celular:
+420
+360
+ */
+@media screen and (max-width: 675px){
+    .imagen{
+        width: 275px;
+    }
+    .primerNovedades{
+        grid-template-columns: 300px;
+        grid-auto-rows: 300px;
+        grid-template-areas: 
+        "texto"
+        "texto"
+        "eclairs"
+        "alfajores"
+        "pionono"
+        "panDulce"
+        "chocotorta"
+    ;
+    }
+    .primerPanaderia{
+        grid-template-areas: 
+        "masaMadre"
+        "baguette"
+        "palitosQueso" 
+        "chipa"
+        "panRelleno"
+        "corazones"
+        "panRollito" 
+        "medialunas"
+        ;
+        grid-template-columns: 300px;
+        grid-auto-rows: 300px;
+    }
+    .primerEspecialidades{
+        grid-template-areas: 
+        "eclairs"
+        "cookies" 
+        "alfajores"
+        "chocotorta" 
+        "torta"
+        "pionono"
+        "panDulce" 
+        "brownies"
+        "pavlova"
+        ;
+        grid-template-columns: 300px;
+        grid-auto-rows: 300px;
+    }
+}
