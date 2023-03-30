@@ -110,16 +110,14 @@
         width: 275px;
     }
     .primerNovedades{
-        grid-template-columns: 300px;
-        grid-auto-rows: 300px;
+        justify-items: start;
+        grid-template-columns: repeat(2, 150px);
+        grid-auto-rows: 1fr;
         grid-template-areas: 
-        "texto"
-        "texto"
-        "eclairs"
-        "alfajores"
-        "pionono"
-        "panDulce"
-        "chocotorta"
+        "texto texto"
+        "eclairs alfajores"
+        "pionono pionono"
+        "panDulce chocotorta"
     ;
     }
     .primerPanaderia{
