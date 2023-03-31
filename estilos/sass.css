@@ -65,6 +65,7 @@ header .flexHeading h1 {
   letter-spacing: 3px;
   word-spacing: 5px;
   padding-top: 255px;
+  position: relative;
 }
 header .flexHeading h1 a {
   list-style-type: none;
@@ -369,6 +370,9 @@ img {
 720
  */
 @media screen and (max-width: 1030px) and (min-width: 866px) {
+  .flexHeading {
+    visibility: hidden;
+  }
   .primerNovedades {
     grid-template-columns: repeat(2, 300px);
     grid-template-rows: repeat(4, minmax(100px 300px));
@@ -386,6 +390,9 @@ img {
   }
 }
 @media screen and (max-width: 865px) and (min-width: 676px) {
+  .flexHeading {
+    visibility: hidden;
+  }
   h2 {
     font-size: 45px;
   }
@@ -424,14 +431,12 @@ img {
 360
  */
 @media screen and (max-width: 675px) {
-  h1 a {
-    font-size: 52px;
-  }
-  .slogan {
-    font-size: 40px;
+  .flexHeading {
+    visibility: hidden;
   }
   .texto h2 {
     font-size: 35px;
+    padding-top: 100px;
   }
   .texto p {
     font-size: 20px;
