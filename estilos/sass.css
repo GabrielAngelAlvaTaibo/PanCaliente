@@ -32,18 +32,18 @@ header .navbar, header .nav-link {
   padding: 10px;
 }
 header .navbar .textoColor:visited, header .nav-link .textoColor:visited {
-  color: White;
+  color: white;
 }
 header .navbar .textoColor:hover, header .nav-link .textoColor:hover {
-  color: White;
-  background-color: rgb(0, 0, 0);
+  color: white;
+  background-color: black;
 }
 header .navbar .textoColor:active, header .nav-link .textoColor:active {
-  color: White;
+  color: white;
 }
 header .navbar .textoColor, header .nav-link .textoColor {
   background-color: black;
-  color: White;
+  color: white;
 }
 header .navbar li a, header .nav-link li a {
   font-family: "Raleway", sans-serif;
@@ -113,6 +113,11 @@ header .flexHeading .slogan {
 
 .chocotorta {
   grid-area: chocotorta;
+}
+
+.texto {
+  display: grid;
+  justify-content: center;
 }
 
 .primerPanaderia {
@@ -201,6 +206,29 @@ header .flexHeading .slogan {
   grid-area: panDulce;
 }
 
+.servicios {
+  display: grid;
+  justify-content: center;
+}
+
+.catering {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  grid-template-columns: repeat(2, 400px);
+  grid-auto-rows: 1fr;
+  grid-template-areas: "formulario imagen" "formulario imagen";
+  gap: 10px;
+}
+
+.formulario {
+  grid-area: formulario;
+}
+
+.imagenCatering {
+  grid-area: imagen;
+}
+
 main {
   color: black;
   height: auto;
@@ -235,6 +263,33 @@ main section .info {
 }
 main section .imagen {
   width: 400px;
+}
+main section .solicitud {
+  font-weight: bold;
+  color: aliceblue;
+  padding: 10px;
+  border: 5px ridge white;
+  background-color: black;
+}
+main section .solicitud input {
+  width: 250px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+main section .solicitud textarea {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+main section .solicitud button {
+  width: 250px;
+  height: 50px;
+  font-weight: bold;
+  background-color: rgba(240, 115, 43, 0.801);
+  color: white;
 }
 
 footer {
@@ -298,6 +353,16 @@ img {
     grid-template-columns: repeat(4, minmax(100px 250px));
     grid-template-rows: repeat(4, minmax(100px 250px));
   }
+  .catering {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-auto-rows: 1fr;
+    grid-template-areas: "formulario imagen" "formulario imagen";
+    gap: 10px;
+  }
+  .imagenCatering {
+    padding-right: 10%;
+  }
 }
 /* Tablet:
 1024
@@ -308,6 +373,16 @@ img {
     grid-template-columns: repeat(2, 300px);
     grid-template-rows: repeat(4, minmax(100px 300px));
     grid-template-areas: "texto texto " "eclairs alfajores" "pionono pionono" "panDulce chocotorta";
+  }
+  .catering {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-areas: "formulario";
+    gap: 10px;
+  }
+  .imagenCatering {
+    display: none;
   }
 }
 @media screen and (max-width: 865px) and (min-width: 676px) {
@@ -329,12 +404,38 @@ img {
     grid-template-columns: repeat(2, 250px);
     grid-auto-rows: 300px;
   }
+  .iframe {
+    padding-right: 25px;
+    padding-left: 10%;
+  }
+  .catering {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-areas: "formulario";
+    gap: 10px;
+  }
+  .imagenCatering {
+    display: none;
+  }
 }
 /* Celular:
 420
 360
  */
 @media screen and (max-width: 675px) {
+  h1 a {
+    font-size: 52px;
+  }
+  .slogan {
+    font-size: 40px;
+  }
+  .texto h2 {
+    font-size: 35px;
+  }
+  .texto p {
+    font-size: 20px;
+  }
   .imagen {
     width: 275px;
   }
@@ -345,21 +446,28 @@ img {
     grid-template-areas: "texto texto" "eclairs alfajores" "pionono pionono" "panDulce chocotorta";
   }
   .primerPanaderia {
-    grid-template-areas: "masaMadre" "baguette" "palitosQueso" "chipa" "panRelleno" "corazones" "panRollito" "medialunas";
-    grid-template-columns: 300px;
-    grid-auto-rows: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    grid-template-areas: "masaMadre masaMadre" "baguette chipa" "palitosQueso palitosQueso" "panRelleno panRelleno" "panRollito corazones" "medialunas medialunas";
   }
   .primerEspecialidades {
-    grid-template-areas: "eclairs" "cookies" "alfajores" "chocotorta" "torta" "pionono" "panDulce" "brownies" "pavlova";
-    grid-template-columns: 300px;
-    grid-auto-rows: 300px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    grid-template-areas: "eclairs cookies" "alfajores alfajores" "chocotorta torta" "pionono pionono" "brownies panDulce" "pavlova pavlova";
   }
-}
-/* === HEADER === */
-/* === MAIN GENERAL === */
-/* === FLEX GENERALES === */
-/*  */
-/*  */
-/*  */
-/* === FOOTER GENERAL  === */
-/* === MEDIA QUERIES === *//*# sourceMappingURL=sass.css.map */
+  .iframe {
+    width: 330px;
+    height: 250px;
+    padding-left: 5px;
+  }
+  .catering {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-areas: "formulario";
+    gap: 10px;
+  }
+  .imagenCatering {
+    display: none;
+  }
+}/*# sourceMappingURL=sass.css.map */

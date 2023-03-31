@@ -1,7 +1,7 @@
 @import "./grids";
 
 main{
-    color: black;
+    color: $color2;
     height: auto;
     margin-top: 70px;
     section{
@@ -32,6 +32,33 @@ main{
         }
         .imagen{
             width: 400px;
+        }
+        .solicitud{
+            font-weight: bold;
+            color: aliceblue;
+            padding: 10px;
+            border: 5px ridge $color3;
+            background-color: $color2;
+            input{
+                width: 250px;
+                font-weight: bold;
+                background-color: $color3;
+                color: $color2;
+            }
+            textarea{
+                width: 250px;
+                height: 250px;
+                background-color: $color3;
+                font-weight: bold;
+                color: $color2;
+            }
+            button{
+                width: 250px;
+                height: 50px;
+                font-weight: bold;
+                background-color: $color1;
+                color: $color3;
+            }
         }
     }
 }

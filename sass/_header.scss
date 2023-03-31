@@ -1,4 +1,6 @@
+@import "variables";
 @import "./animaciones";
+
 header{
     color: whitesmoke; 
     background-image: url(../images/fondoOscuro.jpg);
@@ -11,24 +13,24 @@ header{
         height: 71px;
     }
     .navbar, .nav-link{
-        background-color: black;
+        background-color: $color2;
         font-family: 'Comfortaa', cursive;
         font-weight: bold;
         color: rgb(255, 255, 255);
         padding: 10px;
         .textoColor:visited{
-            color: White;
+            color: $color3;
         }
         .textoColor:hover{
-            color: White;
-            background-color: rgb(0, 0, 0);
+            color: $color3;
+            background-color: $color2;
         }
         .textoColor:active{
-            color: White;
+            color: $color3;
         }
         .textoColor{
-            background-color: black;
-            color: White;
+            background-color: $color2;
+            color: $color3;
         }
         
         li a{
@@ -55,13 +57,13 @@ header{
             a{
                 list-style-type: none;
                 text-decoration: none;
-                color: rgba(240, 115, 43, 0.801);
-                text-shadow: 3px 3px 5px black;
+                color: $color1;
+                text-shadow: 3px 3px 5px $color2;
                 
             }
             a:hover{
-                color: white;
-                text-shadow: 3px 3px 5px rgba(240, 115, 43, 0.801);
+                color: $color3;
+                text-shadow: 3px 3px 5px $color1;
             }
         }
         .slogan{
@@ -71,7 +73,7 @@ header{
             letter-spacing: 3px;
             word-spacing: 5px;
             padding: 50px 0 155px 0;
-            text-shadow: 3px 3px 5px black;
+            text-shadow: 3px 3px 5px $color2;
             
         }
     }

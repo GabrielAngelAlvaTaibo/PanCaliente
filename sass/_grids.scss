@@ -27,6 +27,12 @@
     grid-area: chocotorta;
 }
 
+// === GRID CONTACTO ===
+
+.texto{
+    display: grid;
+    justify-content: center;
+}
 
 // === GRID PANADERIA ===
 
@@ -107,4 +113,29 @@
 }
 .panDulce{
     grid-area: panDulce;
+}
+
+// === GRID CATERING ===
+.servicios{
+    display: grid;
+    justify-content: center;
+}
+.catering{
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+    grid-template-columns: repeat(2, 400px);
+    grid-auto-rows: 1fr;
+    grid-template-areas: 
+    "formulario imagen"
+    "formulario imagen"
+    ;
+    gap: 10px;
+
+}
+.formulario{
+    grid-area: formulario;
+}
+.imagenCatering{
+    grid-area: imagen;
 }
