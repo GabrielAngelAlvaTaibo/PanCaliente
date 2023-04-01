@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
 }
-
+@import "./variables";
 @import "./header";
 @import "./main";
 @import "./footer";
 @import "./flexGenerales";
+@import "./grids";
 @import "./mediaQueries";
