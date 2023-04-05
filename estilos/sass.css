@@ -1024,6 +1024,7 @@ main {
 main section {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  color: black;
   font-size: 20px;
   background-color: rgba(180, 175, 154, 0.363);
   padding: 50px;
@@ -1052,7 +1053,6 @@ main section .imagen {
   width: 400px;
 }
 main section .catering {
-  font-weight: bold;
   color: aliceblue;
   padding: 10px;
   border: 5px ridge white;
@@ -1060,21 +1060,16 @@ main section .catering {
 }
 main section .catering input {
   width: 100%;
-  font-weight: bold;
   background-color: white;
-  color: black;
 }
 main section .catering textarea {
   width: 100%;
   height: 250px;
   background-color: white;
-  font-weight: bold;
-  color: black;
 }
 main section .catering button {
   width: 100%;
   height: 50px;
-  font-weight: bold;
   background-color: rgba(240, 115, 43, 0.801);
   color: white;
 }
@@ -2112,10 +2107,16 @@ footer img {
   .imagenCatering {
     display: none;
   }
-  .index p, .primerPanaderia p, .primerEspecialidades p {
+  .index p {
+    font-size: 20px;
+  }
+  .index a {
+    font-size: 18px;
+  }
+  .primerPanaderia p, .primerEspecialidades p {
     font-size: 9px;
   }
-  .index a, .primerPanaderia a, .primerEspecialidades a {
+  .primerPanaderia a, .primerEspecialidades a {
     font-size: 9px;
   }
 }
@@ -2209,9 +2210,9 @@ footer img {
     display: none;
   }
   .index p, .primerPanaderia p, .primerEspecialidades p {
-    font-size: 10px;
+    font-size: 17px;
   }
   .index a, .primerPanaderia a, .primerEspecialidades a {
-    font-size: 10px;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=sass.css.map */

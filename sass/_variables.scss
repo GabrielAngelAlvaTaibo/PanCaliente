@@ -1,3 +1,9 @@
 $color1: rgba(240, 115, 43, 0.801);
 $color2: black;
 $color3: white;
+
+@mixin estilosBase{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: $color2;
+}

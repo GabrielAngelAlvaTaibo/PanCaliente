@@ -87,7 +87,15 @@
     .imagenCatering{
         display: none;
     }
-    .index, .primerPanaderia, .primerEspecialidades{
+    .index{
+        p{
+            font-size: 20px;
+        }
+        a{
+            font-size: 18px;
+        }
+    } 
+    .primerPanaderia, .primerEspecialidades{
         p{
             font-size: 9px;
         }
@@ -157,6 +165,14 @@
     .imagenCatering{
         display: none;
     }  
+    .primerPanaderia{
+        p{
+            font-size: 15px;
+        }
+        a{
+            font-size: 13px;
+        }
+    }
 }
 /* Celular:
 420
@@ -234,10 +250,10 @@
     }
     .index, .primerPanaderia, .primerEspecialidades{
         p{
-            font-size: 10px;
+            font-size: 17px;
         }
         a{
-            font-size: 10px;
+            font-size: 12px;
         }
     }
 }
