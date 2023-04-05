@@ -86,7 +86,12 @@
     }
     .imagenCatering{
         display: none;
-    }    
+    }
+    .primerNovedades, .primerPanaderia, .primerEspecialidades{
+        p{
+            font-size: 9px;
+        }
+    }
 
 }
 @media screen and (max-width: 865px) and (min-width: 676px){

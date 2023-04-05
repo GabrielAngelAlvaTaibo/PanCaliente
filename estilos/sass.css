@@ -2112,6 +2112,9 @@ footer img {
   .imagenCatering {
     display: none;
   }
+  .primerNovedades p, .primerPanaderia p, .primerEspecialidades p {
+    font-size: 9px;
+  }
 }
 @media screen and (max-width: 865px) and (min-width: 676px) {
   .flexHeading {
