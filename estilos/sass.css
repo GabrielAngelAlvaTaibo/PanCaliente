@@ -2112,7 +2112,10 @@ footer img {
   .imagenCatering {
     display: none;
   }
-  .primerNovedades p, .primerPanaderia p, .primerEspecialidades p {
+  .index p, .primerPanaderia p, .primerEspecialidades p {
+    font-size: 9px;
+  }
+  .index a, .primerPanaderia a, .primerEspecialidades a {
     font-size: 9px;
   }
 }
@@ -2204,5 +2207,11 @@ footer img {
   }
   .imagenCatering {
     display: none;
+  }
+  .index p, .primerPanaderia p, .primerEspecialidades p {
+    font-size: 10px;
+  }
+  .index a, .primerPanaderia a, .primerEspecialidades a {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=sass.css.map */

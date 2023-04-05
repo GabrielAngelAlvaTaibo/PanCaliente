@@ -87,8 +87,11 @@
     .imagenCatering{
         display: none;
     }
-    .primerNovedades, .primerPanaderia, .primerEspecialidades{
+    .index, .primerPanaderia, .primerEspecialidades{
         p{
+            font-size: 9px;
+        }
+        a{
             font-size: 9px;
         }
     }
@@ -228,5 +231,13 @@
     }    
     .imagenCatering{
         display: none;
+    }
+    .index, .primerPanaderia, .primerEspecialidades{
+        p{
+            font-size: 10px;
+        }
+        a{
+            font-size: 10px;
+        }
     }
 }
