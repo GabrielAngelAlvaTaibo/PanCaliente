@@ -6,7 +6,6 @@
  */
 
 @media screen and (max-width: 1270px) and (min-width: 1031px){
-
     .primerNovedades{
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(3, minmax( 100px 300px));
@@ -53,6 +52,11 @@
     }
     .imagenCatering{
         padding-right: 10%;
+    }
+    .primerEspecialidades, .primerPanaderia{
+        p{
+            font-size: 17px;
+        }
     }
 }
 
@@ -165,9 +169,9 @@
     .imagenCatering{
         display: none;
     }  
-    .primerPanaderia{
+    .primerPanaderia, .primerEspecialidades{
         p{
-            font-size: 15px;
+            font-size: 17px;
         }
         a{
             font-size: 13px;
@@ -250,7 +254,7 @@
     }
     .index, .primerPanaderia, .primerEspecialidades{
         p{
-            font-size: 17px;
+            font-size: 11px;
         }
         a{
             font-size: 12px;

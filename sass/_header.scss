@@ -7,7 +7,7 @@ header{
     background-repeat: no-repeat;
     background-position:top;
     background-size: cover;
-    height: 660px;
+    height: 100vh;
     nav img{
         width: 200px;
         height: 71px;
@@ -73,8 +73,7 @@ header{
             letter-spacing: 3px;
             word-spacing: 5px;
             padding: 50px 0 155px 0;
-            text-shadow: 3px 3px 5px $color2;
-            
+            text-shadow: 3px 3px 5px $color2;            
         }
     }
 }

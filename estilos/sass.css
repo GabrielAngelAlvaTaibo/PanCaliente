@@ -4,11 +4,15 @@
   padding: 0;
 }
 
-.pavlova {
+.pavlova, .eclairs, .alfajores, .torta, .pionono, .chocotorta, .cookies, .brownies, .panDulce, .panMasaMadre,
+.palitosQueso, .panRelleno, .panRollito, .baguette, .medialunas,
+.corazones, .chipa {
   position: relative;
   background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
 }
-.pavlova p {
+.pavlova p, .eclairs p, .alfajores p, .torta p, .pionono p, .chocotorta p, .cookies p, .brownies p, .panDulce p, .panMasaMadre p,
+.palitosQueso p, .panRelleno p, .panRollito p, .baguette p, .medialunas p,
+.corazones p, .chipa p {
   font-weight: bold;
   font-size: 20px;
   color: rgba(240, 115, 43, 0.801);
@@ -23,7 +27,9 @@
   padding-right: 5%;
   opacity: 0;
 }
-.pavlova a {
+.pavlova a, .eclairs a, .alfajores a, .torta a, .pionono a, .chocotorta a, .cookies a, .brownies a, .panDulce a, .panMasaMadre a,
+.palitosQueso a, .panRelleno a, .panRollito a, .baguette a, .medialunas a,
+.corazones a, .chipa a {
   font-weight: bold;
   font-size: 17px;
   color: rgba(240, 115, 43, 0.801);
@@ -37,716 +43,21 @@
   opacity: 0;
 }
 
-.pavlova:hover img {
+.pavlova:hover img, .eclairs:hover img, .alfajores:hover img, .torta:hover img, .chocotorta:hover img, .cookies:hover img,
+.pionono:hover img, .brownies:hover img, .panDulce:hover img, .panMasaMadre:hover img, .palitosQueso:hover img,
+.panRelleno:hover img, .panRollito:hover img, .baguette:hover img, .medialunas:hover img,
+.corazones:hover img, .chipa:hover img {
   opacity: 0;
   transform: scale(1.1);
   transition: all 1s;
 }
-.pavlova:hover p, .pavlova:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.eclairs {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.eclairs p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.eclairs a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.eclairs:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.eclairs:hover p, .eclairs:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.alfajores {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.alfajores p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.alfajores a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.alfajores:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.alfajores:hover p, .alfajores:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.torta {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.torta p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.torta a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.torta:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.torta:hover p, .torta:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.chocotorta {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.chocotorta p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.chocotorta a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.chocotorta:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.chocotorta:hover p, .chocotorta:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.pionono {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.pionono p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.pionono a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.pionono:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.pionono:hover p, .pionono:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.cookies {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.cookies p {
-  font-weight: bold;
-  font-size: 18px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.cookies a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.cookies:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.cookies:hover p, .cookies:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.brownies {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.brownies p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.brownies a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.brownies:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.brownies:hover p, .brownies:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panDulce {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panDulce p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panDulce a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panDulce:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panDulce:hover p, .panDulce:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panMasaMadre {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panMasaMadre p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panMasaMadre a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panMasaMadre:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panMasaMadre:hover p, .panMasaMadre:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.palitosQueso {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.palitosQueso p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.palitosQueso a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.palitosQueso:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.palitosQueso:hover p, .palitosQueso:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panRelleno {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panRelleno p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panRelleno a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panRelleno:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panRelleno:hover p, .panRelleno:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panRollito {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panRollito p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panRollito a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panRollito:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panRollito:hover p, .panRollito:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.baguette {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.baguette p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.baguette a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.baguette:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.baguette:hover p, .baguette:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.medialunas {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.medialunas p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.medialunas a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.medialunas:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.medialunas:hover p, .medialunas:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.corazones {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.corazones p {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.corazones a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.corazones:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.corazones:hover p, .corazones:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.chipa {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.chipa p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.chipa a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.chipa:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.chipa:hover p, .chipa:hover a {
+.pavlova:hover p, .pavlova:hover a, .eclairs:hover p, .eclairs:hover a, .alfajores:hover p, .alfajores:hover a, .torta:hover p, .torta:hover a, .chocotorta:hover p, .chocotorta:hover a, .cookies:hover p, .cookies:hover a,
+.pionono:hover p,
+.pionono:hover a, .brownies:hover p, .brownies:hover a, .panDulce:hover p, .panDulce:hover a, .panMasaMadre:hover p, .panMasaMadre:hover a, .palitosQueso:hover p, .palitosQueso:hover a,
+.panRelleno:hover p,
+.panRelleno:hover a, .panRollito:hover p, .panRollito:hover a, .baguette:hover p, .baguette:hover a, .medialunas:hover p, .medialunas:hover a,
+.corazones:hover p,
+.corazones:hover a, .chipa:hover p, .chipa:hover a {
   opacity: 1;
   transition: all 1s;
 }
@@ -755,32 +66,25 @@ a:hover {
   color: white;
 }
 
-.primerNovedades p {
-  font-size: 20px;
-}
-
 footer img {
   position: relative;
   border: 1px solid black;
   border-radius: 50%;
 }
-
-.facebook {
+footer .facebook {
   animation-name: color;
   animation-duration: 4s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
 }
-
-.twitter {
+footer .twitter {
   animation-name: color;
   animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 1s;
   animation-iteration-count: infinite;
 }
-
-.instagram {
+footer .instagram {
   animation-name: color;
   animation-duration: 4s;
   animation-timing-function: ease;
@@ -805,7 +109,7 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  height: 660px;
+  height: 100vh;
 }
 header nav img {
   width: 200px;
@@ -871,149 +175,6 @@ header .flexHeading .slogan {
   word-spacing: 5px;
   padding: 50px 0 155px 0;
   text-shadow: 3px 3px 5px black;
-}
-
-.primerNovedades {
-  display: grid;
-  justify-content: center;
-  grid-template-areas: "texto eclairs alfajores chocotorta" "texto pionono pionono panDulce";
-  grid-template-columns: repeat(4, 300px);
-  grid-template-rows: repeat(2, minmax(100px 300px));
-  gap: 5px;
-}
-
-.eclairs {
-  grid-area: eclairs;
-}
-
-.alfajores {
-  grid-area: alfajores;
-}
-
-.pionono {
-  grid-area: pionono;
-}
-
-.panDulce {
-  grid-area: panDulce;
-}
-
-.chocotorta {
-  grid-area: chocotorta;
-}
-
-.textoContacto {
-  display: grid;
-  justify-content: center;
-}
-
-.primerPanaderia {
-  display: grid;
-  justify-content: center;
-  grid-template-areas: "masaMadre masaMadre palitosQueso palitosQueso panRollito baguette" "masaMadre masaMadre panRelleno panRelleno medialunas medialunas" "corazones chipa panRelleno panRelleno medialunas medialunas";
-  grid-template-columns: repeat(6, minmax(100px 300px));
-  grid-template-rows: repeat(3, minmax(100px 300px));
-  gap: 5px;
-}
-
-.panMasaMadre {
-  grid-area: masaMadre;
-}
-
-.palitosQueso {
-  grid-area: palitosQueso;
-}
-
-.panRelleno {
-  grid-area: panRelleno;
-}
-
-.panRollito {
-  grid-area: panRollito;
-}
-
-.baguette {
-  grid-area: baguette;
-}
-
-.medialunas {
-  grid-area: medialunas;
-}
-
-.corazones {
-  grid-area: corazones;
-}
-
-.chipa {
-  grid-area: chipa;
-}
-
-.primerEspecialidades {
-  display: grid;
-  justify-content: center;
-  grid-template-areas: "cookies eclairs eclairs chocotorta alfajores panDulce" "cookies eclairs eclairs torta torta brownies" "pavlova pionono pionono torta torta brownies";
-  grid-template-columns: repeat(6, minmax(100px 1fr));
-  grid-template-rows: repeat(3, minmax(100px 1fr));
-  gap: 5px;
-}
-
-.pavlova {
-  grid-area: pavlova;
-}
-
-.eclairs {
-  grid-area: eclairs;
-}
-
-.alfajores {
-  grid-area: alfajores;
-}
-
-.torta {
-  grid-area: torta;
-}
-
-.chocotorta {
-  grid-area: chocotorta;
-}
-
-.pionono {
-  grid-area: pionono;
-}
-
-.cookies {
-  grid-area: cookies;
-}
-
-.brownies {
-  grid-area: brownies;
-}
-
-.panDulce {
-  grid-area: panDulce;
-}
-
-.servicios {
-  display: grid;
-  justify-content: center;
-}
-
-.catering {
-  display: grid;
-  justify-content: space-evenly;
-  justify-items: center;
-  grid-template-columns: repeat(2, 400px);
-  grid-auto-rows: 1fr;
-  grid-template-areas: "formulario imagen" "formulario imagen";
-  gap: 10px;
-}
-
-.formulario {
-  grid-area: formulario;
-}
-
-.imagenCatering {
-  grid-area: imagen;
 }
 
 main {
@@ -1252,11 +413,15 @@ img {
   grid-area: imagen;
 }
 
-.pavlova {
+.pavlova, .eclairs, .alfajores, .torta, .pionono, .chocotorta, .cookies, .brownies, .panDulce, .panMasaMadre,
+.palitosQueso, .panRelleno, .panRollito, .baguette, .medialunas,
+.corazones, .chipa {
   position: relative;
   background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
 }
-.pavlova p {
+.pavlova p, .eclairs p, .alfajores p, .torta p, .pionono p, .chocotorta p, .cookies p, .brownies p, .panDulce p, .panMasaMadre p,
+.palitosQueso p, .panRelleno p, .panRollito p, .baguette p, .medialunas p,
+.corazones p, .chipa p {
   font-weight: bold;
   font-size: 20px;
   color: rgba(240, 115, 43, 0.801);
@@ -1271,7 +436,9 @@ img {
   padding-right: 5%;
   opacity: 0;
 }
-.pavlova a {
+.pavlova a, .eclairs a, .alfajores a, .torta a, .pionono a, .chocotorta a, .cookies a, .brownies a, .panDulce a, .panMasaMadre a,
+.palitosQueso a, .panRelleno a, .panRollito a, .baguette a, .medialunas a,
+.corazones a, .chipa a {
   font-weight: bold;
   font-size: 17px;
   color: rgba(240, 115, 43, 0.801);
@@ -1285,716 +452,21 @@ img {
   opacity: 0;
 }
 
-.pavlova:hover img {
+.pavlova:hover img, .eclairs:hover img, .alfajores:hover img, .torta:hover img, .chocotorta:hover img, .cookies:hover img,
+.pionono:hover img, .brownies:hover img, .panDulce:hover img, .panMasaMadre:hover img, .palitosQueso:hover img,
+.panRelleno:hover img, .panRollito:hover img, .baguette:hover img, .medialunas:hover img,
+.corazones:hover img, .chipa:hover img {
   opacity: 0;
   transform: scale(1.1);
   transition: all 1s;
 }
-.pavlova:hover p, .pavlova:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.eclairs {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.eclairs p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.eclairs a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.eclairs:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.eclairs:hover p, .eclairs:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.alfajores {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.alfajores p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.alfajores a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.alfajores:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.alfajores:hover p, .alfajores:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.torta {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.torta p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.torta a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.torta:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.torta:hover p, .torta:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.chocotorta {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.chocotorta p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.chocotorta a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.chocotorta:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.chocotorta:hover p, .chocotorta:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.pionono {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.pionono p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.pionono a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.pionono:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.pionono:hover p, .pionono:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.cookies {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.cookies p {
-  font-weight: bold;
-  font-size: 18px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.cookies a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.cookies:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.cookies:hover p, .cookies:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.brownies {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.brownies p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.brownies a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.brownies:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.brownies:hover p, .brownies:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panDulce {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panDulce p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panDulce a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panDulce:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panDulce:hover p, .panDulce:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panMasaMadre {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panMasaMadre p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panMasaMadre a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panMasaMadre:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panMasaMadre:hover p, .panMasaMadre:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.palitosQueso {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.palitosQueso p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.palitosQueso a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.palitosQueso:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.palitosQueso:hover p, .palitosQueso:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panRelleno {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panRelleno p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panRelleno a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panRelleno:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panRelleno:hover p, .panRelleno:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.panRollito {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.panRollito p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.panRollito a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.panRollito:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.panRollito:hover p, .panRollito:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.baguette {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.baguette p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.baguette a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.baguette:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.baguette:hover p, .baguette:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.medialunas {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.medialunas p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.medialunas a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.medialunas:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.medialunas:hover p, .medialunas:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.corazones {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.corazones p {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.corazones a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.corazones:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.corazones:hover p, .corazones:hover a {
-  opacity: 1;
-  transition: all 1s;
-}
-
-.chipa {
-  position: relative;
-  background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
-}
-.chipa p {
-  font-weight: bold;
-  font-size: 15px;
-  color: rgba(240, 115, 43, 0.801);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  padding-left: 5%;
-  padding-right: 5%;
-  opacity: 0;
-}
-.chipa a {
-  font-weight: bold;
-  font-size: 17px;
-  color: rgba(240, 115, 43, 0.801);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-  position: absolute;
-  opacity: 0;
-}
-
-.chipa:hover img {
-  opacity: 0;
-  transform: scale(1.1);
-  transition: all 1s;
-}
-.chipa:hover p, .chipa:hover a {
+.pavlova:hover p, .pavlova:hover a, .eclairs:hover p, .eclairs:hover a, .alfajores:hover p, .alfajores:hover a, .torta:hover p, .torta:hover a, .chocotorta:hover p, .chocotorta:hover a, .cookies:hover p, .cookies:hover a,
+.pionono:hover p,
+.pionono:hover a, .brownies:hover p, .brownies:hover a, .panDulce:hover p, .panDulce:hover a, .panMasaMadre:hover p, .panMasaMadre:hover a, .palitosQueso:hover p, .palitosQueso:hover a,
+.panRelleno:hover p,
+.panRelleno:hover a, .panRollito:hover p, .panRollito:hover a, .baguette:hover p, .baguette:hover a, .medialunas:hover p, .medialunas:hover a,
+.corazones:hover p,
+.corazones:hover a, .chipa:hover p, .chipa:hover a {
   opacity: 1;
   transition: all 1s;
 }
@@ -2003,32 +475,25 @@ a:hover {
   color: white;
 }
 
-.primerNovedades p {
-  font-size: 20px;
-}
-
 footer img {
   position: relative;
   border: 1px solid black;
   border-radius: 50%;
 }
-
-.facebook {
+footer .facebook {
   animation-name: color;
   animation-duration: 4s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
 }
-
-.twitter {
+footer .twitter {
   animation-name: color;
   animation-duration: 4s;
   animation-timing-function: ease;
   animation-delay: 1s;
   animation-iteration-count: infinite;
 }
-
-.instagram {
+footer .instagram {
   animation-name: color;
   animation-duration: 4s;
   animation-timing-function: ease;
@@ -2082,6 +547,9 @@ footer img {
   }
   .imagenCatering {
     padding-right: 10%;
+  }
+  .primerEspecialidades p, .primerPanaderia p {
+    font-size: 17px;
   }
 }
 /* Tablet:
@@ -2159,6 +627,12 @@ footer img {
   .imagenCatering {
     display: none;
   }
+  .primerPanaderia p, .primerEspecialidades p {
+    font-size: 17px;
+  }
+  .primerPanaderia a, .primerEspecialidades a {
+    font-size: 13px;
+  }
 }
 /* Celular:
 420
@@ -2210,7 +684,7 @@ footer img {
     display: none;
   }
   .index p, .primerPanaderia p, .primerEspecialidades p {
-    font-size: 17px;
+    font-size: 11px;
   }
   .index a, .primerPanaderia a, .primerEspecialidades a {
     font-size: 12px;
