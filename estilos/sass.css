@@ -14,7 +14,6 @@
 .palitosQueso p, .panRelleno p, .panRollito p, .baguette p, .medialunas p,
 .corazones p, .chipa p {
   font-weight: bold;
-  font-size: 20px;
   color: rgba(240, 115, 43, 0.801);
   width: 100%;
   height: 100%;
@@ -26,12 +25,12 @@
   padding-left: 5%;
   padding-right: 5%;
   opacity: 0;
+  transition: all 1s;
 }
 .pavlova a, .eclairs a, .alfajores a, .torta a, .pionono a, .chocotorta a, .cookies a, .brownies a, .panDulce a, .panMasaMadre a,
 .palitosQueso a, .panRelleno a, .panRollito a, .baguette a, .medialunas a,
 .corazones a, .chipa a {
   font-weight: bold;
-  font-size: 17px;
   color: rgba(240, 115, 43, 0.801);
   width: 100%;
   height: 100%;
@@ -41,6 +40,7 @@
   align-items: flex-end;
   position: absolute;
   opacity: 0;
+  transition: all 1s;
 }
 
 .pavlova:hover img, .eclairs:hover img, .alfajores:hover img, .torta:hover img, .chocotorta:hover img, .cookies:hover img,
@@ -212,6 +212,9 @@ main section .info {
 }
 main section .imagen {
   width: 400px;
+}
+main section .parrafos {
+  font-size: 16px;
 }
 main section .catering {
   color: aliceblue;
@@ -423,7 +426,6 @@ img {
 .palitosQueso p, .panRelleno p, .panRollito p, .baguette p, .medialunas p,
 .corazones p, .chipa p {
   font-weight: bold;
-  font-size: 20px;
   color: rgba(240, 115, 43, 0.801);
   width: 100%;
   height: 100%;
@@ -435,12 +437,12 @@ img {
   padding-left: 5%;
   padding-right: 5%;
   opacity: 0;
+  transition: all 1s;
 }
 .pavlova a, .eclairs a, .alfajores a, .torta a, .pionono a, .chocotorta a, .cookies a, .brownies a, .panDulce a, .panMasaMadre a,
 .palitosQueso a, .panRelleno a, .panRollito a, .baguette a, .medialunas a,
 .corazones a, .chipa a {
   font-weight: bold;
-  font-size: 17px;
   color: rgba(240, 115, 43, 0.801);
   width: 100%;
   height: 100%;
@@ -450,6 +452,7 @@ img {
   align-items: flex-end;
   position: absolute;
   opacity: 0;
+  transition: all 1s;
 }
 
 .pavlova:hover img, .eclairs:hover img, .alfajores:hover img, .torta:hover img, .chocotorta:hover img, .cookies:hover img,
@@ -548,7 +551,7 @@ footer .instagram {
   .imagenCatering {
     padding-right: 10%;
   }
-  .primerEspecialidades p, .primerPanaderia p {
+  .primerEspecialidades .parrafos, .primerPanaderia .parrafos {
     font-size: 17px;
   }
 }
@@ -563,7 +566,17 @@ footer .instagram {
   .primerNovedades {
     grid-template-columns: repeat(2, 300px);
     grid-template-rows: repeat(4, minmax(100px 300px));
-    grid-template-areas: "texto texto " "eclairs alfajores" "pionono pionono" "panDulce chocotorta";
+    grid-template-areas: "texto texto" "eclairs alfajores" "pionono pionono" "panDulce chocotorta";
+  }
+  .primerEspecialidades {
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: repeat(4, minmax(100px 300px));
+    grid-template-areas: "eclairs eclairs cookies" "alfajores pavlova pavlova" "chocotorta panDulce brownies" "torta pionono pionono";
+  }
+  .primerPanaderia {
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: repeat(4, minmax(100px 300px));
+    grid-template-areas: "masaMadre masaMadre palitosQueso" "masaMadre masaMadre panRelleno" "corazones chipa panRelleno" "panRollito baguette medialunas";
   }
   .catering {
     display: grid;
@@ -581,11 +594,8 @@ footer .instagram {
   .index a {
     font-size: 18px;
   }
-  .primerPanaderia p, .primerEspecialidades p {
-    font-size: 9px;
-  }
-  .primerPanaderia a, .primerEspecialidades a {
-    font-size: 9px;
+  .primerPanaderia p, .primerPanaderia a, .primerEspecialidades p, .primerEspecialidades a {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 865px) and (min-width: 676px) {
@@ -627,11 +637,8 @@ footer .instagram {
   .imagenCatering {
     display: none;
   }
-  .primerPanaderia p, .primerEspecialidades p {
-    font-size: 17px;
-  }
-  .primerPanaderia a, .primerEspecialidades a {
-    font-size: 13px;
+  .primerPanaderia p, .primerPanaderia a, .primerEspecialidades p, .primerEspecialidades a {
+    font-size: 19px;
   }
 }
 /* Celular:
@@ -683,10 +690,7 @@ footer .instagram {
   .imagenCatering {
     display: none;
   }
-  .index p, .primerPanaderia p, .primerEspecialidades p {
-    font-size: 11px;
-  }
-  .index a, .primerPanaderia a, .primerEspecialidades a {
+  .index p, .index a, .primerPanaderia p, .primerPanaderia a, .primerEspecialidades p, .primerEspecialidades a {
     font-size: 12px;
   }
 }/*# sourceMappingURL=sass.css.map */

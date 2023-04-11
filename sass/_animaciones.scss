@@ -6,7 +6,6 @@
     background: linear-gradient(rgba(26, 26, 24, 0.678), rgb(2, 2, 2), rgba(26, 26, 24, 0.678));
     p {
         font-weight: bold;
-        font-size: 20px;
         color: $color1;
         width: 100%;
         height: 100%;
@@ -18,10 +17,10 @@
         padding-left: 5%;
         padding-right: 5%;
         opacity: 0;
+        transition: all 1s;
     }
     a {
         font-weight: bold;
-        font-size: 17px;
         color: $color1;
         width: 100%;
         height: 100%;
@@ -31,6 +30,7 @@
         align-items: flex-end;
         position: absolute;
         opacity: 0;
+        transition: all 1s;
     }
 }
 .pavlova:hover, .eclairs:hover, .alfajores:hover, .torta:hover, .chocotorta:hover, .cookies:hover,
