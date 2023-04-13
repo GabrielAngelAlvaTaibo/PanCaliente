@@ -668,12 +668,12 @@ footer .instagram {
   .primerPanaderia {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    grid-template-areas: "masaMadre masaMadre" "baguette chipa" "palitosQueso palitosQueso" "panRelleno panRelleno" "panRollito corazones" "medialunas medialunas";
+    grid-template-areas: "masaMadre masaMadre" "chipa chipa" "baguette baguette" "palitosQueso palitosQueso" "panRelleno panRelleno" "panRollito panRollito" "corazones corazones" "medialunas medialunas";
   }
   .primerEspecialidades {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    grid-template-areas: "eclairs cookies" "alfajores alfajores" "chocotorta torta" "pionono pionono" "brownies panDulce" "pavlova pavlova";
+    grid-template-areas: "eclairs eclairs" "cookies cookies" "alfajores alfajores" "chocotorta chocotorta" "torta torta" "pionono pionono" "brownies brownies" "panDulce panDulce" "pavlova pavlova";
   }
   .iframe {
     width: 270px;
@@ -690,7 +690,11 @@ footer .instagram {
   .imagenCatering {
     display: none;
   }
+  .index, .primerPanaderia, .primerEspecialidades {
+    margin: 0;
+    text-align: center;
+  }
   .index p, .index a, .primerPanaderia p, .primerPanaderia a, .primerEspecialidades p, .primerEspecialidades a {
-    font-size: 12px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=sass.css.map */

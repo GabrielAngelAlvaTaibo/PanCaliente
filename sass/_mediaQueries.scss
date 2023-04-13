@@ -228,10 +228,12 @@
         grid-auto-rows: 1fr;
         grid-template-areas: 
         "masaMadre masaMadre"
-        "baguette chipa"
+        "chipa chipa"
+        "baguette baguette"
         "palitosQueso palitosQueso" 
         "panRelleno panRelleno"
-        "panRollito corazones"
+        "panRollito panRollito"
+        "corazones corazones"
         "medialunas medialunas"
         ;
     }
@@ -239,11 +241,14 @@
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 1fr;
         grid-template-areas: 
-        "eclairs cookies"
+        "eclairs eclairs"
+        "cookies cookies"
         "alfajores alfajores"
-        "chocotorta torta" 
+        "chocotorta chocotorta"
+        "torta torta"
         "pionono pionono"
-        "brownies panDulce"
+        "brownies brownies"
+        "panDulce panDulce"
         "pavlova pavlova"
         ;
     }
@@ -266,8 +271,10 @@
         display: none;
     }
     .index, .primerPanaderia, .primerEspecialidades{
+        margin: 0;
+        text-align: center;
         p, a{
-            font-size: 12px;
+            font-size: 15px;
         }
     }
 }
