@@ -18,21 +18,20 @@ header{
         font-weight: bold;
         color: rgb(255, 255, 255);
         padding: 10px;
-        .textoColor:visited{
-            color: $color3;
-        }
-        .textoColor:hover{
-            color: $color3;
-            background-color: $color2;
-        }
-        .textoColor:active{
-            color: $color3;
-        }
         .textoColor{
             background-color: $color2;
             color: $color3;
+            &.textoColor:visited{
+                color: $color3;
+            }
+            &.textoColor:hover{
+                color: $color3;
+                background-color: $color2;
+            }
+            &.textoColor:active{
+                color: $color3;
+            }
         }
-        
         li a{
             font-family: 'Raleway', sans-serif;
             color: #f5f5f5;
@@ -45,7 +44,6 @@ header{
         align-content: center; 
         justify-content: flex-end;
         align-items: center;
-
         h1{
             font-family: 'Raleway', serif;
             font-weight: bold;
@@ -54,18 +52,13 @@ header{
             letter-spacing: 3px;
             word-spacing: 5px;
             padding-top: 255px;
-            a{
-                list-style-type: none;
-                text-decoration: none;
-                color: $color1;
-                text-shadow: 3px 3px 5px $color2;
-                
-            }
-            a:hover{
+            color: $color1;
+            text-shadow: 3px 3px 5px $color2;
+        }
+        h1:hover{
                 color: $color3;
                 text-shadow: 3px 3px 5px $color1;
-            }
-        }
+            }   
         .slogan{
             font-family: 'Dancing Script', cursive;
             font-size: 45px;

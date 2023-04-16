@@ -122,18 +122,18 @@ header .navbar, header .nav-link {
   color: rgb(255, 255, 255);
   padding: 10px;
 }
-header .navbar .textoColor:visited, header .nav-link .textoColor:visited {
-  color: white;
-}
-header .navbar .textoColor:hover, header .nav-link .textoColor:hover {
-  color: white;
-  background-color: black;
-}
-header .navbar .textoColor:active, header .nav-link .textoColor:active {
-  color: white;
-}
 header .navbar .textoColor, header .nav-link .textoColor {
   background-color: black;
+  color: white;
+}
+header .navbar .textoColor.textoColor:visited, header .nav-link .textoColor.textoColor:visited {
+  color: white;
+}
+header .navbar .textoColor.textoColor:hover, header .nav-link .textoColor.textoColor:hover {
+  color: white;
+  background-color: black;
+}
+header .navbar .textoColor.textoColor:active, header .nav-link .textoColor.textoColor:active {
   color: white;
 }
 header .navbar li a, header .nav-link li a {
@@ -156,14 +156,10 @@ header .flexHeading h1 {
   letter-spacing: 3px;
   word-spacing: 5px;
   padding-top: 255px;
-}
-header .flexHeading h1 a {
-  list-style-type: none;
-  text-decoration: none;
   color: rgba(240, 115, 43, 0.801);
   text-shadow: 3px 3px 5px black;
 }
-header .flexHeading h1 a:hover {
+header .flexHeading h1:hover {
   color: white;
   text-shadow: 3px 3px 5px rgba(240, 115, 43, 0.801);
 }
@@ -620,10 +616,6 @@ footer .instagram {
     grid-template-columns: repeat(2, 250px);
     grid-auto-rows: 300px;
   }
-  .iframe {
-    padding-right: 25px;
-    padding-left: 10%;
-  }
   .catering {
     display: grid;
     grid-template-columns: 1fr;
@@ -696,5 +688,10 @@ footer .instagram {
   }
   .index p, .index a, .primerPanaderia p, .primerPanaderia a, .primerEspecialidades p, .primerEspecialidades a {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .iframe {
+    width: 100%;
   }
 }/*# sourceMappingURL=sass.css.map */
